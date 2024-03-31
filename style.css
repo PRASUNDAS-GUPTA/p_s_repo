@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(112, 112, 154);
+}
+
+.box{
+    height: 150px;
+     width: 300px;  
+    border: 1px solid red;
+}
+.main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 5px;
+    
+}
+
+@media  screen and (max-width: 600px) {
+   .main{ display:grid;
+    grid-template-columns:1fr;
+    }
+    
+}
